@@ -14,7 +14,7 @@ public class Invoice {
 		LineItem anItem = new LineItem(product, quantity);
 		items.add(anItem);
 	}
-	private String format() {
+	public String format() {
 		String in = "                                    I N V O I C E \n\n"
 				+ address.format()
 				+ String.format("\n\n%-30s%8s%Ss%8s\n", "Name", "Price", "Qty", "Total");
