@@ -1,0 +1,10 @@
+package invoice;
+
+public class InvoicePrinter {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
